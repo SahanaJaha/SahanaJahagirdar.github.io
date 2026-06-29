@@ -566,7 +566,7 @@ params:
     title: "Sahana."
     subtitle: "<insert something witty here>"
     content: "Exploring the mathematics of computation (with a love for playing games on graphs). Aspiring PhD student in theoretical computer science."
-    image: "~/images/personal2.png"
+    image: /images/personal2.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -590,7 +590,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "~/images/personal1.jpeg"
+    image: /images/personal1.jpeg
     content: |-
       A passionate writer (part-time researcher ;)). I work on problems in games on automata theory and formal verification. I am a bachelors student in Mathematics looking for PhD positions in theoretical computer science. I have a background in computer science and mathematics, and I have a strong interest in the intersection of games and automata. I am currently studying in [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) and am based in Mumbai. I am looking for potential collaborations and am open to discussion on research problems in the broad are of theory of computation, automata theory and formal verification. 
 
@@ -706,7 +706,7 @@ params:
           name: "Indian Institute of Technology Bombay"
           url: "https://www.iitb.ac.in"
         date: "2023 - Present"
-        GPA: "8.32 out of 10.0"
+        GPA: "8.53 out of 10.0"
         content: |-
           Relevant Coursework 
           - Probability Theory
@@ -764,7 +764,7 @@ params:
         content: Studying the optimal configuration of Queens on a square chessboard such that we have maximum coverage of the board with the minimum number of queens. 
           **Submission Pending**
         url: https://arxiv.org/abs/2508.02545
-        image: /images/achievement.jpg
+        # image: /images/achievement.jpg
       # - title: Facebook Hackathon Winner
       #   content: Developed a product using Artificial Intelligence.
       #   image: /images/achievement.jpg
@@ -785,7 +785,7 @@ params:
     items:
       - title: Algorithmic Number Theory and Algebra | Python Library 
         content: Implemented algorithms in the form of a Python library for Number Theory and Algebra, coding algorithms such as Probabilistic and Deterministic Primality Testing, Factorisation and Modular Square Roots. Programmed the AKS Primality Test, Miller-Rabin Primality Test, and Polynomial Quotient Ring operations, as well as thoroughly testing them on large numbers to verify their correctness and efficiency
-        image: /images/projects/Algebra-and-Number-Theory.png
+        # image: /images/projects/Algebra-and-Number-Theory.png
         featured:
           name: Code Repository
           link: https://github.com/SahanaJaha/SoC_Algorithmic_Number_Theory_And_Algebra
@@ -803,7 +803,7 @@ params:
 
       - title: Audio Classification Using MFCC Data
         content: Processed raw audio data, extracted MFCC features, and applied various machine learning algorithms including decision trees, SVM, and neural networks to classify singers based on distinct vocal characteristics. Targeted improvement of model accuracy through feature engineering and dimensionality reduction. Achieved a perfect score of 30/30 and securing 1st place in a class of 200+ students for high accuracy in predictions.
-        image: /images/projects/converter.jpg
+        # image: /images/projects/converter.jpg
         featured:
           name: Code Repository
           link: https://github.com/SahanaJaha/DS203-Project
@@ -830,7 +830,7 @@ params:
 
       - title: Geometric Algorithms
         content: Investigated advanced computational geometry algorithms including output-sensitive plane sweep methods, line segment intersection, polygon triangulation, and monotone polygon decomposition. Analysed balanced search trees for efficient event management and studied Fortune's algorithm for Voronoi diagram construction using sweep-line and beach-line data structures, leveraging geometric properties such as the empty-circle property and convex hull relationships.
-        image: /images/projects/Algebra-and-Number-Theory.png
+        # image: /images/projects/Algebra-and-Number-Theory.png
         featured:
           name: Reading Project
           link: https://github.com/SahanaJaha/DS203-Project
@@ -852,7 +852,7 @@ params:
 
       - title: Machine Learning in Medical Research
         content: Analysed large-scale dermatological datasets to improve skin lesion diagnosis during a data science internship at the Computer Vision Lab, Manchester Metropolitan University. Performed feature engineering and model selection across 6+ diverse datasets, leveraging machine learning techniques, visualisation methods, and MySQL-based data processing to enhance predictive performance.
-        image: /images/projects/medical-ml.jpg
+        image: /images/projects/Algebra-and-Number-Theory.png
         featured:
           name: Internship Project
           link: https://github.com/SahanaJaha/DS203-Project
