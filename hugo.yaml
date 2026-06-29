@@ -522,22 +522,22 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#007bff"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    primaryColor: "#007bff"
+    secondaryColor: "#f8f9fa"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8"
+      textLinkColor: "#ffffff"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529"
+      primaryColor: "#ffffff"
+      secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -566,7 +566,7 @@ params:
     title: "Sahana."
     subtitle: "<insert something witty here>"
     content: "Exploring the mathematics of computation (with a love for playing games on graphs). Aspiring PhD student in theoretical computer science."
-    image: "/images/personal2.png"
+    image: "~/images/personal2.png"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -590,7 +590,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/something.png"
+    image: "~/images/personal1.jpeg"
     content: |-
       A passionate writer (part-time researcher ;)). I work on problems in games on automata theory and formal verification. I am a bachelors student in Mathematics looking for PhD positions in theoretical computer science. I have a background in computer science and mathematics, and I have a strong interest in the intersection of games and automata. I am currently studying in [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) and am based in Mumbai. I am looking for potential collaborations and am open to discussion on research problems in the broad are of theory of computation, automata theory and formal verification. 
 
@@ -612,7 +612,7 @@ params:
     # title: "Custom Name"
     items:
       - company: "Max Planck Institute for Software Systems"
-        companyUrl: "https://example.com"
+        companyUrl: "https://www.mpi-sws.org/"
         jobs:
           - name: "Research Fellowship"
             date: "May 2026 - present"
@@ -830,7 +830,7 @@ params:
 
       - title: Geometric Algorithms
         content: Investigated advanced computational geometry algorithms including output-sensitive plane sweep methods, line segment intersection, polygon triangulation, and monotone polygon decomposition. Analysed balanced search trees for efficient event management and studied Fortune's algorithm for Voronoi diagram construction using sweep-line and beach-line data structures, leveraging geometric properties such as the empty-circle property and convex hull relationships.
-        image: /images/projects/geometry.jpg
+        image: /images/projects/Algebra-and-Number-Theory.png
         featured:
           name: Reading Project
           link: https://github.com/SahanaJaha/DS203-Project
@@ -841,7 +841,7 @@ params:
 
       - title: Hat Guessing Number of a Graph
         content: Conducted research on logic-based hat guessing puzzles under the guidance of Prof. Anurag Bishnoi and Prof. James Tuite. Explored how graph-theoretic properties influence optimal guessing strategies, analysed the effects of edge and vertex deletions on guaranteed correct guesses, and investigated structural patterns in directed and mixed graphs to understand puzzle complexity.
-        image: /images/projects/hatguessing.jpg
+        image: /images/projects/converter.jpg
         featured:
           name: Research Project
           link: https://github.com/SahanaJaha/DS203-Project
